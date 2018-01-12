@@ -14,9 +14,3 @@ jobs:
             apk add --update python &&  rm -rf /var/cache/apk/*
             python main.py
 
-workflows:
-  version: 2
-  build_and_deploy:
-    jobs:
-      example:
-
