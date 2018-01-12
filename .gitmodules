@@ -1,0 +1,3 @@
+[submodule "public_submodule_example"]
+	path = public_submodule_example
+	url = https://github.com/htl-dev/public_submodule_example.git
