@@ -3,7 +3,6 @@ jobs:
   build:
     working_directory: /work_space
     docker:
-      - image: hashicorp/terraform:0.10.7
       - image: docker:17.05.0-ce-git
 
     branches:
